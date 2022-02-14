@@ -15,6 +15,7 @@ Setup Mosquitto MQTT broker on your local machine. Certain parameters should be 
 ```
 allow_anonymous true
 listener 1883 0.0.0.0
+max_keepalive 0
 ```
 
 ## Screenshot
